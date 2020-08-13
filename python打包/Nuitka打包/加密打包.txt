@@ -1,0 +1,10 @@
+1. vs
+vs_community_ENU
+
+2. Crypto
+
+3. Cpython
+   编译为pyd文件
+
+3. 加密打包
+--key asd@sdfs
