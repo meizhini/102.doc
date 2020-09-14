@@ -1,0 +1,38 @@
+pip install rarfile -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip3 install openpyxl xlwt xlrd xlutils -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip3 install Cython numpy pandas scipy -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip3 install sqlalchemy matplotlib pyecharts pyecharts_snapshot -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install PyExecJS psycopg2 bs4 pychecktype -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install rsa requests scipy  -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+压缩文件:
+pip install filetype rarfile patool -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+pip install uncompyle wmi tinyaes  -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install  pyinstaller psutil -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install pyqt5 PyQt5-tools sip -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# 注意修改版本，安装后检查是否正确，验证语句: from Qt import *
+pip install PySide2 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+#qtpandas准备工作
+pip install pytest_cov future pytest_qt easygui QtPy  -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+解压
+安装qtpandas、ibm_db_sa、ibm_db、QDarkStyle等
+# 参考 “Python踩坑之路-Python-3.6 安装pycrypto 2.6.1各种疑难杂症及解决方案” 安装pycrypto
+1. 安装对应版本的msvs 例如Visual Studio 2015
+2. 如果不需要用vs进行开发的话，装community免费版就可以了
+3. 安装三个：Common Tools for Visual C++ 2015、python Tools for Visual StudioMarch 2016（）、Microsoft web Developer tools
+记得勾选VC++2015和Python Tools。Web Deveolper Tools的话最好也勾上吧
+4. 配置环境变量
+变量名：VCINSTALLDIR
+（变量值为vs安装路径下的VC，默认是这个）
+变量值：C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC
+5. 安装pycrypto时需要设置临时的：set CL=/FI"%VCINSTALLDIR%\INCLUDE\stdint.h" %CL%
+
+
+ibm需要下载驱动、pycrypto需要设置临时变量、qtpandas需要修改配置，读取版本已经处理的在py.rar文件中
