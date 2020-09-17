@@ -1,4 +1,6 @@
-pip install rarfile -i https://pypi.tuna.tsinghua.edu.cn/simple
+python 安装路径不要安装到带空格的路径下
+
+
 pip3 install openpyxl xlwt xlrd xlutils -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip3 install Cython numpy pandas scipy -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip3 install sqlalchemy matplotlib pyecharts pyecharts_snapshot -i https://pypi.tuna.tsinghua.edu.cn/simple
@@ -11,8 +13,11 @@ pip install filetype rarfile patool -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 
 pip install uncompyle wmi tinyaes  -i https://pypi.tuna.tsinghua.edu.cn/simple
-pip install  pyinstaller psutil -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install pyinstaller psutil nuitka -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install pyqt5 PyQt5-tools sip -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+QT_QPA_PLATFORM_PLUGIN_PATH
+D:\Program Files\Python38\Lib\site-packages\PyQt5\Qt\plugins
 
 # 注意修改版本，安装后检查是否正确，验证语句: from Qt import *
 pip install PySide2 -i https://pypi.tuna.tsinghua.edu.cn/simple
@@ -36,3 +41,6 @@ pip install pytest_cov future pytest_qt easygui QtPy  -i https://pypi.tuna.tsing
 
 
 ibm需要下载驱动、pycrypto需要设置临时变量、qtpandas需要修改配置，读取版本已经处理的在py.rar文件中
+
+
+第一次运行nuitka过程会提示是否按照***东西：输入yes
