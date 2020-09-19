@@ -44,3 +44,7 @@ ibmĞèÒªÏÂÔØÇı¶¯¡¢pycryptoĞèÒªÉèÖÃÁÙÊ±±äÁ¿¡¢qtpandasĞèÒªĞŞ¸ÄÅäÖÃ£¬¶ÁÈ¡°æ±¾ÒÑ¾­´¦À
 
 
 µÚÒ»´ÎÔËĞĞnuitka¹ı³Ì»áÌáÊ¾ÊÇ·ñ°´ÕÕ***¶«Î÷£ºÊäÈëyes
+
+
+
+pip install splinter -i https://pypi.tuna.tsinghua.edu.cn/simple
