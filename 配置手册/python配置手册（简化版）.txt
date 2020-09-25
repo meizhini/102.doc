@@ -38,7 +38,7 @@ pip install pytest_cov future pytest_qt easygui QtPy  -i https://pypi.tuna.tsing
 （变量值为vs安装路径下的VC，默认是这个）
 变量值：C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC
 5. 安装pycrypto时需要设置临时的：set CL=/FI"%VCINSTALLDIR%\INCLUDE\stdint.h" %CL%
-
+pip install pycrypto  -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ibm需要下载驱动、pycrypto需要设置临时变量、qtpandas需要修改配置，读取版本已经处理的在py.rar文件中
 
