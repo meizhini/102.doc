@@ -1,0 +1,6 @@
+IBM_DB_HOME
+C:\Users\lch\AppData\Local\Programs\Python\Python38\Lib\site-packages\ibm_db-3.0.2-py3.8.egg\clidriver
+
+
+PATH
+C:\Users\lch\AppData\Local\Programs\Python\Python38\Lib\site-packages\ibm_db-3.0.2-py3.8.egg\clidriver\bin
