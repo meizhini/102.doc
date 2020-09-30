@@ -48,3 +48,28 @@ ibmĞèÒªÏÂÔØÇı¶¯¡¢pycryptoĞèÒªÉèÖÃÁÙÊ±±äÁ¿¡¢qtpandasĞèÒªĞŞ¸ÄÅäÖÃ£¬¶ÁÈ¡°æ±¾ÒÑ¾­´¦À
 
 
 pip install splinter -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+
+Ê¹ÓÃnuitka´ò°ü£º
+	Ôö¼Ódb2Çı¶¯ÅäÖÃ±äÁ¿
+	ĞŞ¸Äibm_db.py   ---ÕÒdllÂ·¾¶ÕÒ²»µ½ 15ĞĞ
+   	base_path = os.path.abspath(".")
+   	__file__ = os.path.join(base_path,'ibm_db_dlls\ibm_db.dll')
+   	__loader__ = None; del __bootstrap__, __loader__
+
+
+	ibm_db.py ±àÒëÎªpyd£¬Èç¹û²»±àÒëÎªpyd£¬¿ÉÄÜÓĞµãÎÊÌâ
+
+	sqlachemy´úÂë---²»ÄÜ¹»Ö±½ÓĞŞ¸Ä£¬´ò°üºÃÖ®ºó£¬ĞèÒªµÄ¿½±´µ½distÏÂÖ®ºóÔÙĞŞ¸Ä£¬²å¼ş·½Ê½¼ÓÔØibm_db_sa²¿·Ö´úÂë
+	langhelpers.py 256ĞĞ
+            #for impl in pkg_resources.iter_entry_points(self.group, name):
+            #    self.impls[name] = impl.load
+            #    return impl.load()
+            from ibm_db_sa.ibm_db import DB2Dialect_ibm_db as r
+            return r
+
+
+
+	´ò°ü½áÊøÖ®ºó£ºsqlachemy ¡¢ibm_db/ibm_db_dlls¿½±´µ½distÏÂ
+	
