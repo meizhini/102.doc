@@ -40,6 +40,16 @@ pip install pytest_cov future pytest_qt easygui QtPy  -i https://pypi.tuna.tsing
 5. 安装pycrypto时需要设置临时的：set CL=/FI"%VCINSTALLDIR%\INCLUDE\stdint.h" %CL%
 pip install pycrypto  -i https://pypi.tuna.tsinghua.edu.cn/simple
 
+CryPto修改：
+C:\Users\lch\AppData\Local\Programs\Python\Python38\lib\site-packages\Crypto\Random\OSRNG\nt.py
+28行
+#import winrandom
+from Crypto.Random.OSRNG import winrandom
+
+C:\Users\lch\AppData\Local\Programs\Python\Python38\Lib\site-packages\Crypto\Random\_UserFriendlyRNG.py
+78行
+time.clock() -->time.perf_counter()
+
 ibm需要下载驱动、pycrypto需要设置临时变量、qtpandas需要修改配置，读取版本已经处理的在py.rar文件中
 
 
