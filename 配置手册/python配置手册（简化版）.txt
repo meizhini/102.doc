@@ -11,6 +11,7 @@ pip install rsa requests scipy  -i https://pypi.tuna.tsinghua.edu.cn/simple
 Ñ¹ËõÎÄ¼þ:
 pip install filetype rarfile patool -i https://pypi.tuna.tsinghua.edu.cn/simple
 
+pip install Image
 
 pip install uncompyle wmi tinyaes  -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install pyinstaller psutil nuitka -i https://pypi.tuna.tsinghua.edu.cn/simple
