@@ -1,17 +1,23 @@
 python 安装路径不要安装到带空格的路径下
 
-
 pip3 install openpyxl xlwt xlrd xlutils -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip3 install wheel twine Cython numpy pandas scipy -i https://pypi.tuna.tsinghua.edu.cn/simple
-pip3 install sqlalchemy matplotlib pyecharts pyecharts_snapshot -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip3 install flask sqlalchemy matplotlib pyecharts pyecharts_snapshot -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install PyExecJS psycopg2 bs4 pychecktype -i https://pypi.tuna.tsinghua.edu.cn/simple
-pip install rsa requests scipy  -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install rsa requests html5lib scipy  -i https://pypi.tuna.tsinghua.edu.cn/simple
 
+#gp
+pip install baostock
 
 压缩文件:
 pip install filetype rarfile patool -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-pip install Image
+pip install Image -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# 调用java api
+pip install JPype1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
 
 pip install uncompyle wmi tinyaes  -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install pyinstaller psutil nuitka -i https://pypi.tuna.tsinghua.edu.cn/simple
