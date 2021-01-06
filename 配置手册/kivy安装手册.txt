@@ -1,0 +1,41 @@
+Kivy 2.0.0 -> Cython==0.29.10
+Kivy 1.11.1 -> Cython==0.29.9
+Kivy 1.11.0 -> Cython==0.29.9
+Kivy 1.10.1 -> Cython==0.28.2
+Kivy 1.10.0 -> Cython==0.25.2
+Kivy 1.9.1 -> Cython==0.23.1
+Kivy 1.9.0 -> Cython==0.21.2
+
+# 1 预处理
+python -m pip install --upgrade pip wheel setuptools -i https://pypi.tuna.tsinghua.edu.cn/simple
+python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+python -m pip install kivy.deps.gstreamer --extra-index-url https://kivy.org/downloads/packages/simple/ -i https://pypi.tuna.tsinghua.edu.cn/simple
+# 根据上面步骤，下载并安装，再执行上面命令 pip install kivy_deps.gstreamer-0.3.1-cp38-cp38-win_amd64.whl
+
+#2 安装
+python -m pip install kivy -i https://pypi.tuna.tsinghua.edu.cn/simple
+python -m pip install kivy-examples -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+3. ui编辑器
+pip install -U watchdog pygments docutils jedi gitpython six kivy-garden -i https://pypi.tuna.tsinghua.edu.cn/simple
+garden install xpopup
+
+# 环境变量
+set PATH=%PATH%;%cd%\share\sdl2\bin;%cd%\share\glew\bin
+
+
+
+#设计师 应用py3.7.0 1.11.1 
+#1.11.1
+python -m pip install --upgrade pip wheel setuptools -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+pip install docutils pygments pypiwin32 kivy_deps.sdl2==0.1.22 kivy_deps.glew==0.1.12 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install kivy_deps.gstreamer==0.1.17  -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install kivy_deps.gstreamer-0.1.17-cp37-cp37m-win_amd64.whl
+
+pip install kivy_deps.angle==0.1.9  -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+pip install -U watchdog pygments docutils jedi gitpython six kivy-garden -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install -Ur requirements.txt  -i https://pypi.tuna.tsinghua.edu.cn/simple
+garden install xpopup
