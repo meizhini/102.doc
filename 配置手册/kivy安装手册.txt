@@ -1,4 +1,4 @@
-Kivy 2.0.0 -> Cython==0.29.10
+﻿Kivy 2.0.0 -> Cython==0.29.10
 Kivy 1.11.1 -> Cython==0.29.9
 Kivy 1.11.0 -> Cython==0.29.9
 Kivy 1.10.1 -> Cython==0.28.2
@@ -16,6 +16,8 @@ python -m pip install kivy.deps.gstreamer --extra-index-url https://kivy.org/dow
 #2 安装
 python -m pip install kivy -i https://pypi.tuna.tsinghua.edu.cn/simple
 python -m pip install kivy-examples -i https://pypi.tuna.tsinghua.edu.cn/simple
+python -m pip install jnius twisted -i https://pypi.tuna.tsinghua.edu.cn/simple
+
 
 3. ui编辑器
 pip install -U watchdog pygments docutils jedi gitpython six kivy-garden -i https://pypi.tuna.tsinghua.edu.cn/simple
