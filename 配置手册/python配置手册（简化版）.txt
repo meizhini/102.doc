@@ -17,6 +17,13 @@ pip install Image -i https://pypi.tuna.tsinghua.edu.cn/simple
 # 调用java api
 pip install JPype1 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
+#memcache
+pip3 install redis -i https://pypi.tuna.tsinghua.edu.cn/simple# https://github.com/tporadowski/redis/releases 
+C:\Program Files\Redis\ 6379
+# linux端 rpm版本下载
+http://www.rpmfind.net/linux/rpm2html/search.php?query=redis
+
+pip3 install python-memcache -i https://pypi.tuna.tsinghua.edu.cn/simple#下载服务端  https://www.memcached.org/files/memcached-1.6.9.tar.gz
 
 
 pip install uncompyle wmi tinyaes  -i https://pypi.tuna.tsinghua.edu.cn/simple
